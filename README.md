@@ -1,36 +1,30 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# AutoBotWA Landing Page
 
-## Getting Started
+This project is a responsive landing page created for the AutoBotWA Frontend Internship assignment. The goal of the task was to build a clean and mobile-friendly single-page layout using Next.js, Tailwind CSS, and Vercel v0.
 
-First, run the development server:
+The page includes all the required sections:
+- Hero section  
+- Features  
+- Testimonials  
+- Pricing  
+- Contact form  
+- Footer  
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 💡 Tech Stack
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Next.js – for app structure  
+- Tailwind CSS – for styling  
+- Vercel v0 – used to generate a starter pricing layout which I later customized  
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 📌 Vercel v0 Usage Notes
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- I used Vercel v0 to generate an initial pricing section layout.  
+- I reviewed the layout, modified it, and integrated it into the project manually.  
+- The v0 output helped with spacing, component grouping, and card structure ideas.  
+- The final version is fully customized to match the assignment requirements.  
 
-## Learn More
+## 🚀 Running the Project Locally
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/subham192005/autobotwa-landing.git
